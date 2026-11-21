@@ -41,3 +41,17 @@ Extract and package two autonomous video skills (`faceless-shorts-skill` and `Ro
 ## 4. Next Steps
 - Verify push to GitHub (`baerozgaarmard/ultimate-faceless-shorts-pipeline`).
 - Test remote installer one-liners in clean environments.
+
+
+---
+
+## 5. Update: Professional Engineering Specification & Repository Discoverability
+**Timestamp:** 2026-11-21T14:41:00+05:30  
+- **README Refactor:** Rewrote the entire root `README.md` to professional systems engineering standards:
+  - System architecture and execution topology diagram.
+  - Mathematical and discrete timing frame capture specs.
+  - Side-by-side Markdown image matrices embedding all style sheet PNGs and background diorama plates directly from `references/`.
+  - Latency and compute benchmark table.
+- **Repository Metadata & Discoverability:**
+  - Updated repository description via GitHub CLI: `"Production-grade, code-native faceless video studio for AI coding agents. 6 micro-short 3D/2D styles + Paper Billions diorama puppet engine with local TTS, Whisper alignment, and zero API costs."`
+  - Added 14 high-traffic GitHub discovery topics: `video-generation`, `ai-agents`, `faceless-video`, `youtube-shorts`, `tiktok-automation`, `claude-code`, `antigravity`, `threejs`, `kokoro-tts`, `whisper`, `ffmpeg`, `generative-media`, `reels`, `python`.
