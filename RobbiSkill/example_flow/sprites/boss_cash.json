@@ -1,0 +1,6 @@
+{
+ "closed": "sprites/boss_cash_closed.png",
+ "ar": 0.455,
+ "h": 610,
+ "open": "sprites/boss_cash_open.png"
+}

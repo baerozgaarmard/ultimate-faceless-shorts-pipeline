@@ -1,0 +1,394 @@
+{
+ "fps": 30,
+ "audio": "audio/voice.wav",
+ "music": "dark",
+ "cast": {
+  "ceo": {
+   "skin": "#f1c9a0",
+   "suit": "#2f6b55",
+   "shirt": "#f4efe2",
+   "tie": "#e8b923",
+   "hair": "short",
+   "hair_col": "#3a2a1c"
+  },
+  "puppet": {
+   "skin": "#d9b98a",
+   "suit": "#b8864a",
+   "hair": "curly",
+   "hair_col": "#7a4a1c",
+   "glasses": false
+  },
+  "cfo": {
+   "skin": "#e8b98f",
+   "suit": "#3a3f6b",
+   "shirt": "#f4efe2",
+   "bowtie": "#b3283a",
+   "hair": "bald",
+   "glasses": true
+  }
+ },
+ "shots": [
+  {
+   "id": "s01",
+   "lines": [
+    0,
+    0
+   ],
+   "set": {
+    "kind": "city",
+    "time": "dusk",
+    "landmark": "skyscraper"
+   },
+   "cam": [
+    {
+     "t": 0,
+     "x": 960,
+     "y": 540,
+     "z": 1.0
+    },
+    {
+     "t": 3.5,
+     "x": 960,
+     "y": 600,
+     "z": 1.25
+    }
+   ],
+   "chars": [
+    {
+     "puppet": "ceo",
+     "x": 760,
+     "y": 960,
+     "s": 1.35,
+     "mood": "happy",
+     "pose": "cheer",
+     "face": 1,
+     "enter": "left",
+     "talk": true,
+     "speakAt": [
+      0.05,
+      4.196
+     ]
+    }
+   ],
+   "layers": [
+    {
+     "kind": "calendar",
+     "x": 1500,
+     "y": 300,
+     "steps": [
+      {
+       "at": 0,
+       "m": "JAN",
+       "d": "31"
+      },
+      {
+       "at": 1.0,
+       "m": "FEB",
+       "d": "11"
+      }
+     ],
+     "in": "pop",
+     "hud": true
+    },
+    {
+     "kind": "text",
+     "text": "PETS.COM",
+     "x": 1300,
+     "y": 780,
+     "size": 120,
+     "font": "brush",
+     "color": "#ffd24a",
+     "stroke": "#2a1a00",
+     "sw": 10,
+     "start": 1.8,
+     "in": "pop",
+     "hud": true
+    }
+   ],
+   "duration": 4.276
+  },
+  {
+   "id": "s02",
+   "lines": [
+    1,
+    1
+   ],
+   "set": {
+    "kind": "trading",
+    "mood": "green"
+   },
+   "cam": [
+    {
+     "t": 0,
+     "x": 960,
+     "y": 540,
+     "z": 1.0
+    },
+    {
+     "t": 3.5,
+     "x": 900,
+     "y": 560,
+     "z": 1.2
+    }
+   ],
+   "chars": [
+    {
+     "puppet": "cfo",
+     "x": 560,
+     "y": 1000,
+     "s": 1.35,
+     "mood": "grin",
+     "pose": "present",
+     "face": 1,
+     "talk": true,
+     "speakAt": [
+      0.05,
+      3.837
+     ]
+    }
+   ],
+   "layers": [
+    {
+     "kind": "text",
+     "text": "",
+     "counter": {
+      "from": 0,
+      "to": 82.5,
+      "fmt": "M",
+      "dec": 1,
+      "dur": 1.6
+     },
+     "x": 1330,
+     "y": 520,
+     "size": 210,
+     "font": "brush",
+     "color": "#3ddc84",
+     "glow": 16,
+     "stroke": "#0c3b1e",
+     "sw": 10,
+     "start": 0.4,
+     "in": "pop",
+     "hud": true
+    },
+    {
+     "kind": "cash",
+     "x": 1500,
+     "y": 1040,
+     "rows": 2,
+     "s": 0.75,
+     "in": "drop",
+     "start": 0.9
+    }
+   ],
+   "duration": 3.917
+  },
+  {
+   "id": "s03",
+   "lines": [
+    2,
+    2
+   ],
+   "set": {
+    "kind": "stage",
+    "spotX": 960
+   },
+   "cam": [
+    {
+     "t": 0,
+     "x": 960,
+     "y": 560,
+     "z": 1.0
+    },
+    {
+     "t": 3.8,
+     "x": 960,
+     "y": 600,
+     "z": 1.3
+    }
+   ],
+   "chars": [
+    {
+     "puppet": "puppet",
+     "x": 960,
+     "y": 950,
+     "s": 1.42,
+     "mood": "laugh",
+     "pose": "wave",
+     "face": 0,
+     "talk": true,
+     "speakAt": [
+      0.05,
+      4.217
+     ]
+    },
+    {
+     "puppet": "ceo",
+     "x": 420,
+     "y": 980,
+     "s": 1.08,
+     "mood": "happy",
+     "pose": "clap",
+     "face": 1
+    },
+    {
+     "puppet": "cfo",
+     "x": 1500,
+     "y": 980,
+     "s": 1.08,
+     "mood": "grin",
+     "pose": "clap",
+     "face": -1
+    }
+   ],
+   "layers": [
+    {
+     "kind": "text",
+     "text": "THE SOCK PUPPET",
+     "x": 960,
+     "y": 140,
+     "size": 84,
+     "font": "brush",
+     "color": "#fff",
+     "stroke": "#2a1a00",
+     "sw": 9,
+     "start": 0.5,
+     "in": "slideL",
+     "hud": true
+    }
+   ],
+   "duration": 4.297
+  },
+  {
+   "id": "s04",
+   "lines": [
+    3,
+    3
+   ],
+   "set": {
+    "kind": "office",
+    "time": "night",
+    "calendar": "MAY 2000"
+   },
+   "cam": [
+    {
+     "t": 0,
+     "x": 960,
+     "y": 540,
+     "z": 1.0
+    },
+    {
+     "t": 4.6,
+     "x": 780,
+     "y": 600,
+     "z": 1.35
+    }
+   ],
+   "chars": [
+    {
+     "puppet": "cfo",
+     "x": 720,
+     "y": 930,
+     "s": 1.35,
+     "mood": "worry",
+     "pose": "think",
+     "face": 1,
+     "talk": true,
+     "speakAt": [
+      0.05,
+      5.087
+     ]
+    }
+   ],
+   "layers": [
+    {
+     "kind": "stamp",
+     "text": "LOSES MONEY",
+     "x": 1250,
+     "y": 520,
+     "size": 96,
+     "color": "#d9322e",
+     "start": 2.2,
+     "in": "stamp",
+     "rot": -8,
+     "hud": true
+    },
+    {
+     "kind": "text",
+     "text": "SHIPPING A BAG OF DOG FOOD",
+     "x": 1250,
+     "y": 330,
+     "size": 52,
+     "font": "hand",
+     "color": "#fff",
+     "stroke": "#000",
+     "sw": 6,
+     "start": 1.2,
+     "in": "slideR",
+     "hud": true
+    }
+   ],
+   "duration": 5.167
+  },
+  {
+   "id": "s05",
+   "lines": [
+    4,
+    4
+   ],
+   "set": {
+    "kind": "street",
+    "time": "night",
+    "sign": "CLOSED"
+   },
+   "cam": [
+    {
+     "t": 0,
+     "x": 960,
+     "y": 540,
+     "z": 1.0
+    },
+    {
+     "t": 3,
+     "x": 1000,
+     "y": 600,
+     "z": 1.2
+    }
+   ],
+   "chars": [
+    {
+     "puppet": "ceo",
+     "x": 1000,
+     "y": 1000,
+     "s": 1.28,
+     "mood": "sad",
+     "pose": "idle",
+     "face": -1,
+     "enter": "right",
+     "talk": true,
+     "speakAt": [
+      0.05,
+      3.098
+     ]
+    }
+   ],
+   "layers": [
+    {
+     "kind": "text",
+     "text": "NINE MONTHS",
+     "x": 960,
+     "y": 170,
+     "size": 140,
+     "font": "brush",
+     "color": "#ff5a5a",
+     "stroke": "#2a0000",
+     "sw": 10,
+     "start": 0.3,
+     "in": "pop",
+     "hud": true
+    }
+   ],
+   "duration": 3.178
+  }
+ ],
+ "soundtrack": "audio/soundtrack.wav"
+}

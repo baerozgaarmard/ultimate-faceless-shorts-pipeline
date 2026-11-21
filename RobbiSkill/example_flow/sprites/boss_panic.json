@@ -1,0 +1,6 @@
+{
+ "closed": "sprites/boss_panic_closed.png",
+ "ar": 0.6202,
+ "h": 632,
+ "open": "sprites/boss_panic_open.png"
+}

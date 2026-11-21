@@ -1,0 +1,826 @@
+{
+ "fps": 30,
+ "audio": "audio/voiceover.mp3",
+ "music": "calm",
+ "shots": [
+  {
+   "id": "s01",
+   "type": "scene",
+   "lines": [
+    0,
+    0
+   ],
+   "bg": "plates/exchange.jpg",
+   "cam": [
+    {
+     "t": 0,
+     "x": 960,
+     "y": 540,
+     "z": 1.0
+    },
+    {
+     "t": 2,
+     "x": 1300,
+     "y": 560,
+     "z": 1.3
+    }
+   ],
+   "grade": [
+    {
+     "color": "#ffcf6a",
+     "radial": [
+      1500,
+      160,
+      900
+     ],
+     "alpha": 0.4
+    }
+   ],
+   "fx": [
+    "dust"
+   ],
+   "layers": [
+    {
+     "kind": "calendar",
+     "x": 260,
+     "y": 280,
+     "steps": [
+      {
+       "at": 0,
+       "m": "JAN",
+       "d": "31"
+      },
+      {
+       "at": 0.7,
+       "m": "FEB",
+       "d": "10"
+      }
+     ],
+     "circleAt": 1.1,
+     "in": "pop",
+     "hud": true
+    },
+    {
+     "kind": "img",
+     "sprite": "sprites/bell.json",
+     "x": 1560,
+     "y": 760,
+     "h": 330,
+     "anchor": "bc",
+     "in": "swing",
+     "loop": "swing",
+     "start": 0.15,
+     "shadow": true
+    },
+    {
+     "kind": "text",
+     "text": "NEW YORK STOCK EXCHANGE",
+     "x": 90,
+     "y": 980,
+     "size": 40,
+     "align": "left",
+     "box": {},
+     "start": 0.5,
+     "in": "slideL",
+     "hud": true
+    }
+   ],
+   "duration": 1.78
+  },
+  {
+   "id": "s02",
+   "type": "scene",
+   "lines": [
+    1,
+    1
+   ],
+   "bg": "plates/exchange.jpg",
+   "bgBlur": 2,
+   "tin": "whipR",
+   "fx": [
+    "bills"
+   ],
+   "cam": [
+    {
+     "t": 0,
+     "x": 960,
+     "y": 540,
+     "z": 1.0
+    },
+    {
+     "t": 3,
+     "x": 930,
+     "y": 620,
+     "z": 1.35
+    }
+   ],
+   "grade": [
+    {
+     "color": "#3ddc84",
+     "radial": [
+      960,
+      300,
+      900
+     ],
+     "alpha": 0.25
+    }
+   ],
+   "chars": [
+    {
+     "sprite": "sprites/boss_cheer.json",
+     "x": 820,
+     "y": 1040,
+     "s": 1.0,
+     "pose": "cheer",
+     "talk": true,
+     "enter": "left",
+     "speakAt": [
+      0.05,
+      2.017
+     ]
+    }
+   ],
+   "layers": [
+    {
+     "kind": "text",
+     "text": "$82.5M",
+     "x": 1330,
+     "y": 420,
+     "size": 210,
+     "font": "brush",
+     "color": "#3ddc84",
+     "glow": 16,
+     "stroke": "#0c3b1e",
+     "sw": 10,
+     "in": "pop",
+     "start": 0.6,
+     "loop": "pulse"
+    },
+    {
+     "kind": "cash",
+     "x": 1500,
+     "y": 1050,
+     "rows": 2,
+     "s": 0.75,
+     "in": "drop",
+     "start": 0.9
+    },
+    {
+     "kind": "text",
+     "text": "IPO: $11 A SHARE",
+     "x": 1340,
+     "y": 560,
+     "size": 56,
+     "font": "hand",
+     "color": "#fff",
+     "stroke": "#000",
+     "start": 1.5,
+     "in": "slideR"
+    }
+   ],
+   "duration": 2.097
+  },
+  {
+   "id": "s02b",
+   "type": "numbers",
+   "lines": [
+    1,
+    1
+   ],
+   "at": 0.5,
+   "paper": "#e9e2d0",
+   "tin": "whipU",
+   "fx": [
+    "sparks"
+   ],
+   "objects": [
+    {
+     "kind": "cash",
+     "x": 960,
+     "y": 1010,
+     "s": 2.3,
+     "rows": 4
+    }
+   ],
+   "items": [
+    {
+     "text": "",
+     "x": 960,
+     "y": 300,
+     "size": 260,
+     "color": "#2e9b3f",
+     "counter": {
+      "from": 0,
+      "to": 82.5,
+      "fmt": "M",
+      "dec": 1,
+      "dur": 1.4
+     },
+     "start": 0.1
+    },
+    {
+     "text": "RAISED ON THE STOCK MARKET",
+     "x": 960,
+     "y": 430,
+     "size": 70,
+     "color": "#222",
+     "font": "hand",
+     "glow": 0,
+     "start": 0.9
+    }
+   ],
+   "duration": 2.098
+  },
+  {
+   "id": "s03",
+   "type": "scene",
+   "lines": [
+    2,
+    2
+   ],
+   "bg": "plates/livingroom.jpg",
+   "tin": "whipL",
+   "cam": [
+    {
+     "t": 0,
+     "x": 960,
+     "y": 540,
+     "z": 1.0
+    },
+    {
+     "t": 3,
+     "x": 820,
+     "y": 560,
+     "z": 1.5
+    }
+   ],
+   "grade": [
+    {
+     "color": "#7fb6ff",
+     "radial": [
+      820,
+      500,
+      700
+     ],
+     "alpha": 0.4
+    }
+   ],
+   "fx": [
+    "dust"
+   ],
+   "layers": [
+    {
+     "kind": "img",
+     "sprite": "sprites/dog.json",
+     "x": 560,
+     "y": 870,
+     "h": 330,
+     "anchor": "bc",
+     "in": "pop",
+     "loop": "bob",
+     "start": 0.2,
+     "shadow": true
+    },
+    {
+     "kind": "text",
+     "text": "SUPER BOWL AD",
+     "x": 960,
+     "y": 150,
+     "size": 110,
+     "font": "brush",
+     "color": "#fff",
+     "stroke": "#000",
+     "sw": 12,
+     "in": "slideD",
+     "start": 0.2,
+     "hud": true
+    },
+    {
+     "kind": "stamp",
+     "text": "$1.2M",
+     "x": 1480,
+     "y": 300,
+     "size": 120,
+     "rot": -8,
+     "in": "stamp",
+     "start": 0.9,
+     "hud": true
+    }
+   ],
+   "duration": 3.51
+  },
+  {
+   "id": "s04",
+   "type": "scene",
+   "lines": [
+    3,
+    3
+   ],
+   "bg": "plates/stage.jpg",
+   "tin": "zoom",
+   "cam": [
+    {
+     "t": 0,
+     "x": 960,
+     "y": 540,
+     "z": 1.0
+    },
+    {
+     "t": 2,
+     "x": 1050,
+     "y": 620,
+     "z": 1.25
+    }
+   ],
+   "grade": [
+    {
+     "color": "#ffb347",
+     "radial": [
+      1000,
+      380,
+      800
+     ],
+     "alpha": 0.35
+    }
+   ],
+   "fx": [
+    "confetti"
+   ],
+   "chars": [
+    {
+     "sprite": "sprites/sock.json",
+     "x": 1030,
+     "y": 1000,
+     "s": 1.0,
+     "pose": "cheer",
+     "talk": true,
+     "enter": "right",
+     "speakAt": [
+      0.05,
+      1.605
+     ]
+    }
+   ],
+   "layers": [
+    {
+     "kind": "text",
+     "text": "SOCK PUPPET",
+     "x": 960,
+     "y": 160,
+     "size": 120,
+     "font": "brush",
+     "color": "#ffe066",
+     "stroke": "#000",
+     "sw": 12,
+     "in": "pop",
+     "start": 0.3,
+     "hud": true
+    },
+    {
+     "kind": "text",
+     "text": "AD METER: #5",
+     "x": 1560,
+     "y": 900,
+     "size": 44,
+     "box": {},
+     "in": "slideR",
+     "start": 0.8,
+     "hud": true
+    }
+   ],
+   "duration": 1.685
+  },
+  {
+   "id": "s05",
+   "type": "scene",
+   "lines": [
+    4,
+    4
+   ],
+   "at": 0.0,
+   "bg": "plates/warehouse.jpg",
+   "tin": "whipR",
+   "cam": [
+    {
+     "t": 0,
+     "x": 960,
+     "y": 560,
+     "z": 1.0
+    },
+    {
+     "t": 3,
+     "x": 980,
+     "y": 600,
+     "z": 1.2
+    }
+   ],
+   "shake": [
+    {
+     "at": 1.9,
+     "dur": 0.4,
+     "amp": 14
+    }
+   ],
+   "fx": [
+    "dust"
+   ],
+   "layers": [
+    {
+     "kind": "img",
+     "sprite": "sprites/truck.json",
+     "x": -500,
+     "y": 1010,
+     "h": 300,
+     "anchor": "bc",
+     "kf": [
+      {
+       "t": 2.4,
+       "x": 2500,
+       "ease": "lin"
+      }
+     ],
+     "start": 0.1,
+     "z": "under"
+    },
+    {
+     "kind": "img",
+     "sprite": "sprites/box.json",
+     "x": 150,
+     "y": 930,
+     "h": 150,
+     "anchor": "bc",
+     "kf": [
+      {
+       "t": 2.6,
+       "x": 1800,
+       "ease": "lin"
+      }
+     ],
+     "start": 0.1,
+     "z": "under"
+    },
+    {
+     "kind": "img",
+     "sprite": "sprites/litter.json",
+     "x": 1000,
+     "y": 950,
+     "h": 300,
+     "anchor": "bc",
+     "in": "drop",
+     "start": 0.25,
+     "shadow": true
+    },
+    {
+     "kind": "text",
+     "text": "PAID $3",
+     "x": 620,
+     "y": 430,
+     "size": 84,
+     "font": "hand",
+     "color": "#111",
+     "box": {},
+     "in": "pop",
+     "start": 0.45
+    },
+    {
+     "kind": "text",
+     "text": "SOLD $2",
+     "x": 1380,
+     "y": 430,
+     "size": 84,
+     "font": "hand",
+     "color": "#d9322e",
+     "box": {},
+     "in": "pop",
+     "start": 0.85
+    }
+   ],
+   "duration": 1.466
+  },
+  {
+   "id": "s06",
+   "type": "scene",
+   "lines": [
+    4,
+    4
+   ],
+   "at": 0.55,
+   "bg": "plates/warehouse.jpg",
+   "bgBlur": 7,
+   "bgFilter": "brightness(.5)",
+   "tin": "whipD",
+   "cam": [
+    {
+     "t": 0,
+     "x": 960,
+     "y": 540,
+     "z": 1.0
+    },
+    {
+     "t": 2,
+     "x": 960,
+     "y": 600,
+     "z": 1.12
+    }
+   ],
+   "layers": [
+    {
+     "kind": "img",
+     "sprite": "sprites/scale.json",
+     "x": 960,
+     "y": 1000,
+     "h": 700,
+     "anchor": "bc",
+     "in": "pop",
+     "start": 0.1,
+     "loop": "float",
+     "shadow": true
+    },
+    {
+     "kind": "text",
+     "text": "$3",
+     "x": 600,
+     "y": 560,
+     "size": 110,
+     "font": "brush",
+     "color": "#fff",
+     "stroke": "#000",
+     "sw": 10,
+     "in": "drop",
+     "start": 0.25
+    },
+    {
+     "kind": "text",
+     "text": "$2",
+     "x": 1320,
+     "y": 520,
+     "size": 110,
+     "font": "brush",
+     "color": "#ff5a4d",
+     "stroke": "#000",
+     "sw": 10,
+     "in": "drop",
+     "start": 0.5
+    },
+    {
+     "kind": "stamp",
+     "text": "LOSS",
+     "x": 1500,
+     "y": 250,
+     "size": 130,
+     "rot": 10,
+     "in": "stamp",
+     "start": 0.75
+    }
+   ],
+   "duration": 1.199
+  },
+  {
+   "id": "s07a",
+   "type": "card",
+   "lines": [
+    5,
+    5
+   ],
+   "at": 0.0,
+   "text": "Nine months later,",
+   "by": "word",
+   "tin": "flash",
+   "duration": 1.071
+  },
+  {
+   "id": "s07",
+   "type": "scene",
+   "lines": [
+    5,
+    5
+   ],
+   "bg": "plates/exchange.jpg",
+   "bgFilter": "brightness(.55) saturate(.8)",
+   "tin": "fog",
+   "grade": [
+    {
+     "color": "#ff2a2a",
+     "a0": 0.08,
+     "a1": 0.5
+    }
+   ],
+   "cam": [
+    {
+     "t": 0,
+     "x": 960,
+     "y": 540,
+     "z": 1.05
+    },
+    {
+     "t": 3,
+     "x": 960,
+     "y": 540,
+     "z": 1.0
+    }
+   ],
+   "shake": [
+    {
+     "at": 1.4,
+     "dur": 0.5,
+     "amp": 10
+    }
+   ],
+   "layers": [
+    {
+     "kind": "bars",
+     "x": 960,
+     "y": 930,
+     "n": 70,
+     "w": 1500,
+     "h": 380,
+     "appear": 0.8,
+     "shrink": {
+      "at": 0.9,
+      "dur": 2.0,
+      "to": 0.08
+     },
+     "colors": [
+      "#9aa9bf",
+      "#7d8fa8"
+     ],
+     "z": "under"
+    },
+    {
+     "kind": "poly",
+     "pts": [
+      [
+       -700,
+       -380
+      ],
+      [
+       -300,
+       -300
+      ],
+      [
+       0,
+       -250
+      ],
+      [
+       300,
+       -120
+      ],
+      [
+       700,
+       -30
+      ]
+     ],
+     "x": 960,
+     "y": 760,
+     "stroke": "#ff3b30",
+     "sw": 16,
+     "draw": {
+      "at": 0.7,
+      "dur": 2.2
+     },
+     "head": "dot",
+     "headSize": 22
+    },
+    {
+     "kind": "text",
+     "text": "",
+     "x": 960,
+     "y": 250,
+     "size": 210,
+     "font": "brush",
+     "color": "#ff3b30",
+     "glow": 16,
+     "stroke": "#2a0606",
+     "sw": 10,
+     "counter": {
+      "from": 11,
+      "to": 0.19,
+      "fmt": "plain",
+      "dec": 2,
+      "dur": 2.4,
+      "at": 0.5
+     },
+     "in": "pop"
+    },
+    {
+     "kind": "calendar",
+     "x": 1650,
+     "y": 300,
+     "steps": [
+      {
+       "at": 0,
+       "m": "FEB",
+       "d": "10"
+      },
+      {
+       "at": 1.2,
+       "m": "NOV",
+       "d": "7"
+      }
+     ],
+     "circleAt": 2.2,
+     "in": "pop",
+     "hud": true
+    }
+   ],
+   "duration": 2.499,
+   "at": 0.3
+  },
+  {
+   "id": "s08",
+   "type": "scene",
+   "lines": [
+    6,
+    6
+   ],
+   "at": 0.0,
+   "bg": "plates/office_empty.jpg",
+   "tin": "fog",
+   "fx": [
+    "rain"
+   ],
+   "cam": [
+    {
+     "t": 0,
+     "x": 960,
+     "y": 540,
+     "z": 1.0
+    },
+    {
+     "t": 2,
+     "x": 820,
+     "y": 600,
+     "z": 1.2
+    }
+   ],
+   "grade": [
+    {
+     "color": "#6f8cff",
+     "alpha": 0.22
+    }
+   ],
+   "chars": [
+    {
+     "sprite": "sprites/boss_wallet.json",
+     "x": 620,
+     "y": 1040,
+     "s": 0.95,
+     "talk": true,
+     "enter": "left",
+     "speakAt": [
+      0.05,
+      1.663
+     ]
+    }
+   ],
+   "layers": [
+    {
+     "kind": "img",
+     "sprite": "sprites/box.json",
+     "x": 1330,
+     "y": 900,
+     "h": 220,
+     "anchor": "bc",
+     "in": "drop",
+     "start": 0.15,
+     "shadow": true
+    },
+    {
+     "kind": "img",
+     "sprite": "sprites/box.json",
+     "x": 1600,
+     "y": 960,
+     "h": 170,
+     "anchor": "bc",
+     "in": "drop",
+     "start": 0.45,
+     "flip": true
+    },
+    {
+     "kind": "stamp",
+     "text": "CLOSED",
+     "x": 1380,
+     "y": 330,
+     "size": 120,
+     "rot": 6,
+     "in": "stamp",
+     "start": 0.55
+    },
+    {
+     "kind": "text",
+     "text": "NOVEMBER 7, 2000",
+     "x": 90,
+     "y": 980,
+     "size": 40,
+     "align": "left",
+     "box": {},
+     "in": "slideL",
+     "start": 0.3,
+     "hud": true
+    }
+   ],
+   "duration": 1.743
+  }
+ ],
+ "soundtrack": "audio/soundtrack.wav"
+}

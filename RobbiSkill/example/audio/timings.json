@@ -1,0 +1,32 @@
+[
+ {
+  "id": "s01",
+  "spoken": "February two thousand. Pets dot com is on top of the world.",
+  "start": 0.0,
+  "end": 3.926
+ },
+ {
+  "id": "s02",
+  "spoken": "It just raised eighty-two million dollars on the stock market.",
+  "start": 4.276,
+  "end": 7.843
+ },
+ {
+  "id": "s03",
+  "spoken": "The mascot? A sock puppet with a microphone. People loved him.",
+  "start": 8.193,
+  "end": 12.14
+ },
+ {
+  "id": "s04",
+  "spoken": "There was one small problem. Every bag of dog food cost them money to ship.",
+  "start": 12.49,
+  "end": 17.307
+ },
+ {
+  "id": "s05",
+  "spoken": "Nine months later, the whole company was dead.",
+  "start": 17.657,
+  "end": 20.485
+ }
+]

@@ -1,0 +1,5 @@
+file '/tmp/claude-0/-home-claude/27a213e5-3f9b-505b-8b8f-83e2f58a5e5c/scratchpad/ex2/.render_cache/draft/001_388fea9f8b9616f6.mp4'
+file '/tmp/claude-0/-home-claude/27a213e5-3f9b-505b-8b8f-83e2f58a5e5c/scratchpad/ex2/.render_cache/draft/002_3efc45c2cb2ae0f2.mp4'
+file '/tmp/claude-0/-home-claude/27a213e5-3f9b-505b-8b8f-83e2f58a5e5c/scratchpad/ex2/.render_cache/draft/003_0e2df979285a6e6e.mp4'
+file '/tmp/claude-0/-home-claude/27a213e5-3f9b-505b-8b8f-83e2f58a5e5c/scratchpad/ex2/.render_cache/draft/004_538e6e1dca1194ee.mp4'
+file '/tmp/claude-0/-home-claude/27a213e5-3f9b-505b-8b8f-83e2f58a5e5c/scratchpad/ex2/.render_cache/draft/005_881a83e38ab40c1b.mp4'

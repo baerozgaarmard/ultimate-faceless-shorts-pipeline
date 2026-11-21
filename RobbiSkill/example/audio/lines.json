@@ -1,0 +1,32 @@
+{
+ "lexicon": {
+  "Pets.com": "Pets dot com"
+ },
+ "lines": [
+  {
+   "id": "s01",
+   "text": "February two thousand. Pets dot com is on top of the world.",
+   "voice": "narrator"
+  },
+  {
+   "id": "s02",
+   "text": "It just raised eighty-two million dollars on the stock market.",
+   "voice": "narrator"
+  },
+  {
+   "id": "s03",
+   "text": "The mascot? A sock puppet with a microphone. People loved him.",
+   "voice": "narrator"
+  },
+  {
+   "id": "s04",
+   "text": "There was one small problem. Every bag of dog food cost them money to ship.",
+   "voice": "narrator"
+  },
+  {
+   "id": "s05",
+   "text": "Nine months later, the whole company was dead.",
+   "voice": "narrator"
+  }
+ ]
+}
