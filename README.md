@@ -4,8 +4,26 @@
 [![GitHub Stars](https://img.shields.io/github/stars/baerozgaarmard/ultimate-faceless-shorts-pipeline?style=flat-square)](https://github.com/baerozgaarmard/ultimate-faceless-shorts-pipeline)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 [![Python Runtime](https://img.shields.io/badge/Python-3.10%2B-3776AB.svg?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![Deterministic Engine](https://img.shields.io/badge/Architecture-Deterministic%20Code--First-success?style=flat-square)]()
-[![Zero API Costs](https://img.shields.io/badge/Operational%20Cost-%240.00%20(Local%20DSP%20%2B%20TTS)-orange?style=flat-square)]()
+![Deterministic Engine](https://img.shields.io/badge/Architecture-Deterministic%20Code--First-success?style=flat-square)
+![Zero API Costs](https://img.shields.io/badge/Operational%20Cost-%240.00%20(Local%20DSP%20%2B%20TTS)-orange?style=flat-square)
+
+> **Generate deterministic 3D/2D faceless Shorts and long-form diorama explainers directly from your coding agent (Claude Code, Antigravity, OpenCode, Cursor, Windsurf) — 100% local via Kokoro-82M + faster-whisper + Three.js + FFmpeg, with $0 API cost.**
+
+<table>
+  <tr>
+    <td width="33%"><img src="references/faceless-shorts/deep-dive-style-sheet.png" alt="Deep Dive 3D style" width="100%" /></td>
+    <td width="33%"><img src="references/faceless-shorts/night-file-style-sheet.png" alt="Night File 3D style" width="100%" /></td>
+    <td width="33%"><img src="references/faceless-shorts/tall-tale-style-sheet.png" alt="Tall Tale 3D style" width="100%" /></td>
+  </tr>
+</table>
+
+```bash
+# Quickstart — Windows PowerShell
+irm https://raw.githubusercontent.com/baerozgaarmard/ultimate-faceless-shorts-pipeline/main/install.ps1 | iex
+
+# Quickstart — Linux / macOS
+curl -fsSL https://raw.githubusercontent.com/baerozgaarmard/ultimate-faceless-shorts-pipeline/main/install.sh | bash
+```
 
 ---
 
@@ -13,7 +31,7 @@
 
 The **Ultimate Faceless Shorts Pipeline** is a modular, code-native video synthesis engine architected specifically for autonomous coding agents (Google Antigravity, Claude Code, OpenCode, Cursor, and Windsurf).
 
-Unlike diffusion-based video models that suffer from temporal jitter, hallucinated text, and high API compute costs, this pipeline employs a **deterministic, code-first rasterization model**. Scripts, layout geometry, character kinematics, camera matrices, speech synthesis, and audio ducking are compiled into source code, rendered in headless browser sandboxes at fixed discrete timestamps ($\Delta t = 1/60\text{ s}$), and muxed directly via FFmpeg.
+Unlike diffusion-based video models that suffer from temporal jitter, hallucinated text, and high API compute costs, this pipeline employs a **deterministic, code-first rasterization model**. Scripts, layout geometry, character kinematics, camera matrices, speech synthesis, and audio ducking are compiled into source code, rendered in headless browser sandboxes at fixed discrete timestamps (Δt = 1/60 s), and muxed directly via FFmpeg.
 
 ```
                               SYSTEM ARCHITECTURE & EXECUTION TOPOLOGY
